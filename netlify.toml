@@ -1,0 +1,9 @@
+[build]
+  Functions = "src"
+  command = "tsc"
+  publish = "build"
+
+[[redirects]]
+  from = "*"
+  to = "/.netlify/functions/triplecheck"
+  status = 200

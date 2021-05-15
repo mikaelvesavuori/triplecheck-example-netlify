@@ -1,0 +1,36 @@
+{
+  "name": "triplecheck-example-netlify",
+  "version": "1.0.0",
+  "description": "TripleCheck broker running on Netlify Functions and FaunaDB",
+  "main": "src/index.ts",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "keywords": [
+    "triplecheck",
+    "contract-testing",
+    "consumer-driven-contracts",
+    "consumer-contracts",
+    "pacts"
+  ],
+  "scripts": {
+    "start": "npx netlify dev",
+    "build": "tsc --noEmit",
+    "deploy": "npm run build && npx netlify deploy"
+  },
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "triplecheck-broker": "^0.0.7",
+    "triplecheck-repository-fauna": "^0.0.2"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^0.7.2",
+    "@types/node": "^15.3.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "netlify-cli": "^3.29.15",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
