@@ -18,6 +18,7 @@ Technology choices are:
 - A Netlify account
 - A Fauna account
 - Logged in to Netlify
+- FaunaDB account and a database that's set up correctly (outlined below)
 
 ## Instructions
 
@@ -25,7 +26,7 @@ Technology choices are:
 
 - In Fauna, create a database called `triplecheck-broker`.
 - Under `Security`, create a key for the database and set the role to `Server`
-- Paste the key's value into the `.env` file like this: `FAUNA_KEY=some-secret-random-key`
+- Paste the key's value into an `.env` file (go ahead and rename the `env` file provided in the repo) like this: `FAUNA_KEY=some-secret-random-key`
 - Create a new collection (call it `triplecheck`)
 - Create an index called `Key` and set the term to `data.key`; also enable `Serialized` and `Unique`
 
