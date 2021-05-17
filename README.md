@@ -1,5 +1,7 @@
 # triplecheck-example-netlify
 
+![TripleCheck example implementation](readme/triplecheck-example.png)
+
 ## TripleCheck broker running on Netlify Functions
 
 This repo demonstrates a working, basic implementation of a [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) running on Netlify Functions (really just AWS Lambda) with the database in FaunaDB.
