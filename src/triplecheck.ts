@@ -1,9 +1,9 @@
 import { Handler } from '@netlify/functions';
-import dotenv from 'dotenv';
 
 import { TripleCheckBroker } from 'triplecheck-broker';
 import { FaunaRepository } from 'triplecheck-repository-fauna';
 
+import dotenv from 'dotenv';
 dotenv.config();
 
 const handler: Handler = async (event) => {

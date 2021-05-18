@@ -7,7 +7,6 @@ These versions of `triplecheck-example-netlify` are currently being supported wi
 | Version | Supported |
 | ------- | --------- |
 | 1.x.x   | :x:       |
-| 0.x.x   | :x:       |
 
 ## Reporting a Vulnerability
 
